@@ -20,6 +20,7 @@ public class Player extends CollisionObject implements Movable {
     public void draw(Graphics graphics) {
         graphics.setColor(Color.yellow);
         graphics.drawOval(getX(), getY(), getWidth(), getHeight());
+        graphics.fillOval(getX(), getY(), getWidth(), getHeight());
     }
 }
 
