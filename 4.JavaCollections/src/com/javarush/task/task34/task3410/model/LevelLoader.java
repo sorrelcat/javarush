@@ -24,7 +24,7 @@ public class LevelLoader {
         Set<Box> boxSet = new HashSet<>();
         boxSet.add(new Box(30, 70));
         Set<Home> homeSet = new HashSet<>();
-        homeSet.add(new Home(90, 70));
+        homeSet.add(new Home(110, 150));
         return new GameObjects(wallSet, boxSet, homeSet, new Player(30, 30));
     }
 }
